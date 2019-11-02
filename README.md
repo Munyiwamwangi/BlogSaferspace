@@ -1,4 +1,4 @@
-# Pitch Perfect
+# Blog Saferspace
 
 Author : Munyi Mwangi Wanjiku
 
@@ -8,7 +8,7 @@ Live app: launch APP<a href = ''>. Click.
 
 ## Description
 
-Pitch Perfect is a platform that allows users to share their ideas as posts and others can read them, contribute through commenting and voting.
+Blog Saferspace is a platform that allows users to share their ideas as posts and others can read them, contribute through commenting and voting.
 
 ## Set up and Installations
 
@@ -39,10 +39,10 @@ Click to learn more about  <a href = 'https://newsapi.org/'>
 |Behaviour   |  Input | Output|
 |:--------|:---------|:--------------|
 | Register Link| Provides a regisstry platform | Allows user to register hence creating an account and provies entry into the app through a Login page |
-|Login Link |Allows registered users to login hence access other user priviledges|Allows registered users to login hence access other user priviledges such as create and edit their pitches|
-|CLicking user | Gives a list of the specific user's Pitches |Gives a list of the specific user's Pitches with dates they were posted|
-|Clicking the title of a pitch (user)| Opens the specific pitch and allows update and delete |Opens the specific pitch and allows update and delete|
-|Clicking the title of a pitch (non-user)| Only allows read, comment and vote |Only allows read, comment and vote|
+|Login Link |Allows registered users to login hence access other user priviledges|Allows registered users to login hence access other user priviledges such as create and edit their posts|
+|CLicking user | Gives a list of the specific user's posts |Gives a list of the specific user's posts with dates they were posted|
+|Clicking the title of a post's (user)| Opens the specific posts and allows update and delete |Opens the specific post and allows update and delete|
+|Clicking the title of a post (non-user)| Only allows read, comment and vote |Only allows read, comment and vote|
 
 
 ## Built With

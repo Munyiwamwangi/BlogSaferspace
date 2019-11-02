@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<article class="media content-section">
+	<div class="media-body">
+		<div class="article-metadata">
+			<a class="mr-2 text-center" href="">{{ reviews.name}}</a>
+			<small class="text-muted">{{reviews.date_posted.strftime('%Y-%m-%d')}} </small>
+		</div>
+		{% if reviews.user == current_user %}
+		<div>
+			<a class="btn, btn-warning btn-sm m-1" href="{{url_for('reviews.update_review', review_id = reviews.id)}} " >Update</a>
+			<button type="button" class="btn btn-danger btn-sm mt-1 mb-1" data-toggle="modal" data-target="#deleteModal">Delete</button>
+		</div>
+		{% endif %}
+		<h3 class="article-title text-center">{{reviews.name}} </a></h3>
+		<p class="article-content">{{reviews.content}} </p>
+</article>
+
+
+{% endblock content %}
